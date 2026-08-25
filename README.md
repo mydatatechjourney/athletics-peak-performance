@@ -44,3 +44,9 @@ The full analysis and Python code are available in:
 
 Selected outputs from the analysis are available in the
 `screenshots` folder.
+
+## Dataset
+
+The dataset used for this project is the World Athletics All-Time Rankings dataset available on Kaggle.
+
+[World Athletics All-Time Rankings - Kaggle](https://www.kaggle.com/datasets/jeannicolasduval/world-athletics-all-time-rankings?resource=download)
