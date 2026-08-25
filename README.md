@@ -1,12 +1,9 @@
-# athletics-peak-performance
-Data science project investigating the relationship between age and performance in elite athletics.
-
 # Athletics Peak Performance Analysis
 
 ## Project Overview
 
-This data science project investigates the relationship between
-age and performance in elite athletics.
+This L6 data science apprenticeship project investigates the relationship 
+between age and performance in elite athletics.
 
 ### Research Question
 
