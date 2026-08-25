@@ -158,13 +158,15 @@
 <section>
   <h2>Data Preparation</h2>
 
-  <p>The main preprocessing steps included:</p>
+  <p>
+    The main preprocessing and feature engineering steps included:
+  </p>
 
   <ul>
     <li>Filtering to the four selected events.</li>
     <li>Separating men's and women's competitions.</li>
     <li>Removing duplicate records.</li>
-    <li>Calculating missing ages where date of birth and competition date were available.</li>
+    <li>Using feature engineering to calculate athlete age from date of birth and competition date where age was missing.</li>
     <li>Removing records where age could not be determined.</li>
     <li>Converting performances into numeric values.</li>
     <li>Selecting each athlete's personal-best performance.</li>
@@ -179,6 +181,13 @@
     I explored the distribution of age for each event and gender using
     descriptive statistics, histograms and box plots. Skewness was also
     calculated to understand the shape of each age distribution.
+  </p>
+
+  <p>
+    The skewness values were positive but relatively close to zero across
+    all events and genders. This suggests that the age distributions were
+    generally fairly balanced, with a slight tendency towards older ages.
+    Men's Shot Put and men's 100m showed slightly greater positive skew.
   </p>
 
   <img src="screenshots/descriptive-stats.png"
