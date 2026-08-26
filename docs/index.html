@@ -297,65 +297,59 @@
 
 <section>
   <h2>Key Findings</h2>
-
-  <div class="result">
-    <strong>100m:</strong> the polynomial models estimated peak ages of
-    approximately 29.71 years for men and 28.50 years for women.
-  </div>
-
-  <div class="result">
-    <strong>Long Jump:</strong> the estimated polynomial peak ages were
-    approximately 25.62 years for men and 30.16 years for women.
-  </div>
-
-  <div class="result">
-    <strong>Marathon:</strong> turning points were identified, but they
-    represented maximum predicted times rather than minimum times and
-    were therefore not treated as valid performance peaks.
-  </div>
-
-  <div class="result">
-    <strong>Shot Put:</strong> polynomial turning points were identified
-    at approximately 28.40 years for men and 30.01 years for women.
-  </div>
-
-  <p>
-    Overall, the R-squared values were low. This suggests that age alone
-    explains only a small amount of the variation in elite athletic
-    performance.
-  </p>
+  <ul>
+    <li><strong>100m:</strong> The polynomial models estimated peak ages of approximately <strong>29.71 years for men</strong> and <strong>28.50 years for women</strong>.</li>
+    <li><strong>Long Jump:</strong> The estimated peak ages were approximately <strong>25.62 years for men</strong> and <strong>30.16 years for women</strong>.</li>
+    <li><strong>Shot Put:</strong> The estimated peak ages were approximately <strong>28.40 years for men</strong> and <strong>30.01 years for women</strong>.</li>
+    <li><strong>Marathon:</strong> Turning points were identified at approximately <strong>30.57 years for men</strong> and <strong>36.85 years for women</strong>. However, these represented maximum predicted times rather than minimum times, so they were not considered valid peak performance ages.</li>
+    <li>Men's Long Jump and Shot Put peak-age estimates were relatively close to findings from previous research.</li>
+    <li>Overall, the low R² values suggest that age alone explains only a small amount of the variation in elite athletic performance.</li>
+  </ul>
 </section>
 
 <section>
   <h2>Limitations</h2>
-
   <ul>
-    <li>Age was used as the main predictor.</li>
-    <li>Other factors affecting performance were not included.</li>
-    <li>The dataset represents elite athletes rather than all athletes.</li>
-    <li>Each athlete's selected personal best was used rather than their full career history.</li>
-    <li>Low R-squared values mean the estimated turning points should be interpreted cautiously.</li>
+    <li>Age was used as the main predictor, although athletic performance is influenced by many other factors.</li>
+    <li>Only each athlete's personal-best performance was used rather than performances across their career.</li>
+    <li>The Marathon turning points could not reliably be interpreted as peak performance ages.</li>
+    <li>Low R² values mean the estimated peak ages should be interpreted carefully.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Comparison with a Previous Study</h2>
+  <p>
+    The results were compared with the study by
+    <a href="https://www.researchgate.net/publication/283517440_Age_at_Peak_Performance_of_Successful_Track_Field_Athletes">Hollings, Hopkins and Hume (2014)</a>,
+    which investigated peak performance ages across elite track and field events.
+  </p>
+  <ul>
+    <li><strong>100m:</strong> My estimated peak ages were <strong>29.71 years for men</strong> and <strong>28.50 years for women</strong>, compared with <strong>24.5 years for men</strong> and <strong>25.4 years for women</strong> in the study.</li>
+    <li><strong>Long Jump:</strong> My estimate for men (<strong>25.62 years</strong>) was close to the study's estimate of <strong>24.9 years</strong>. My women's estimate (<strong>30.16 years</strong>) was higher than the study's estimate of <strong>26.5 years</strong>.</li>
+    <li><strong>Shot Put:</strong> My estimate for men (<strong>28.40 years</strong>) was also close to the study's estimate of <strong>27.6 years</strong>. My women's estimate (<strong>30.01 years</strong>) was higher than the study's estimate of <strong>27.0 years</strong>.</li>
+    <li>The results are not directly comparable because the methods are different. My analysis uses each athlete's selected personal best and age as the main predictor, whereas Hollings et al. used repeated performances across athletes' careers and adjusted for factors including competition year, wind, altitude and competition level.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Future Improvements</h2>
+  <ul>
+    <li>Use repeated performances to investigate how an athlete's performance changes throughout their career.</li>
+    <li>Include additional variables that may influence performance.</li>
+    <li>Include wind conditions for events such as the 100m and Long Jump.</li>
+    <li>Investigate Marathon performance separately using an alternative modelling approach.</li>
   </ul>
 </section>
 
 <section>
   <h2>Conclusion</h2>
-
-  <p>
-    The analysis shows that the relationship between age and elite
-    athletic performance differs across events and genders. Polynomial
-    regression was able to identify turning points for several groups,
-    but the low R-squared values show that age is only one part of the
-    explanation for performance.
-  </p>
-
-  <p>
-    The estimated peak ages should therefore be treated as model-based
-    estimates rather than exact biological peak ages. Future analysis
-    could include additional variables, such as wind conditions where
-    relevant, to investigate whether the models can be improved.
-  </p>
-
+  <ul>
+    <li>The relationship between age and performance differs across events and genders.</li>
+    <li>Polynomial regression identified potential peak ages for several groups.</li>
+    <li>Age alone provides a limited explanation of elite athletic performance.</li>
+    <li>The estimated peak ages should therefore be treated as model-based estimates.</li>
+  </ul>
   <p>
     <a href="https://github.com/mydatatechjourney/athletics-peak-performance/blob/main/athletics_peak_performance_analysis.ipynb">
       View the full analysis in the Jupyter Notebook
