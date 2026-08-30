@@ -1,5 +1,7 @@
 # Athletics Peak Performance Analysis
 
+## NOTE: Due to recent github issues relating to actions, the github page may not be available. [Github Status](https://www.githubstatus.com/incidents/kfspvrz14xr0)
+
 ## Project Overview
 
 This L6 data science apprenticeship project investigates the relationship 
