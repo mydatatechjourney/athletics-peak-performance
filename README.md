@@ -1,6 +1,6 @@
 # Athletics Peak Performance Analysis
 
-## NOTE: Due to recent github issues relating to actions, the github page may not be available. [Github Status](https://www.githubstatus.com/incidents/kfspvrz14xr0)
+## NOTE: Due to recent github issues relating to actions (reported on 26th August 2026), the github page may not be available. [Github Status](https://www.githubstatus.com/incidents/kfspvrz14xr0)
 
 ## Project Overview
 
